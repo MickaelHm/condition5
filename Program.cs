@@ -25,23 +25,31 @@ namespace Condition5
             else
             {
                 if (tornadeType == "F2")
-
+                {
                     Console.WriteLine(fujita[1]);
+                }
                 else
                 {
                     if (tornadeType == "F3")
-
+                    {
                         Console.WriteLine(fujita[2]);
+                    }
                     else
                     {
                         if (tornadeType == "F4")
-
+                        {
                             Console.WriteLine(fujita[3]);
+                        }
                         else
                         {
                             if (tornadeType == "F5")
-
+                            {
                                 Console.WriteLine(fujita[4]);
+                            }
+                            else if (tornadeType != "F1" && tornadeType != "F2" && tornadeType != "F3" && tornadeType != "F4" && tornadeType != "F5") ;
+                            {
+                                Console.WriteLine("Erreur");
+                            }
                         }
                     }
                 }
